@@ -1,0 +1,352 @@
+/*--------------Fonts--------------*/
+@font-face {
+    font-family: 'playfair-b';
+    src: url('fonts/playfairdisplay-bold-webfont.eot');
+    src: url('fonts/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay-bold-webfont.woff') format('woff'),
+         url('fonts/playfairdisplay-bold-webfont.ttf') format('truetype'),
+         url('fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair-bi';
+    src: url('fonts/playfairdisplay-bolditalic-webfont.eot');
+    src: url('fonts/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay-bolditalic-webfont.woff') format('woff'),
+         url('fonts/playfairdisplay-bolditalic-webfont.ttf') format('truetype'),
+         url('fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair-i';
+    src: url('fonts/playfairdisplay-italic-webfont.eot');
+    src: url('fonts/playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/playfairdisplay-italic-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay-italic-webfont.woff') format('woff'),
+         url('fonts/playfairdisplay-italic-webfont.ttf') format('truetype'),
+         url('fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair-r';
+    src: url('fonts/playfairdisplay-regular-webfont.eot');
+    src: url('fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay-regular-webfont.woff') format('woff'),
+         url('fonts/playfairdisplay-regular-webfont.ttf') format('truetype'),
+         url('fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('fonts/raleway-light-webfont.eot');
+    src: url('fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-light-webfont.woff2') format('woff2'),
+         url('fonts/raleway-light-webfont.woff') format('woff'),
+         url('fonts/raleway-light-webfont.ttf') format('truetype'),
+         url('fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaylight-i';
+    src: url('fonts/raleway-lightitalic-webfont.eot');
+    src: url('fonts/raleway-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/raleway-lightitalic-webfont.woff') format('woff'),
+         url('fonts/raleway-lightitalic-webfont.ttf') format('truetype'),
+         url('fonts/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('fonts/raleway-medium-webfont.eot');
+    src: url('fonts/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-medium-webfont.woff2') format('woff2'),
+         url('fonts/raleway-medium-webfont.woff') format('woff'),
+         url('fonts/raleway-medium-webfont.ttf') format('truetype'),
+         url('fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaymedium-i';
+    src: url('fonts/raleway-mediumitalic-webfont.eot');
+    src: url('fonts/raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-mediumitalic-webfont.woff2') format('woff2'),
+         url('fonts/raleway-mediumitalic-webfont.woff') format('woff'),
+         url('fonts/raleway-mediumitalic-webfont.ttf') format('truetype'),
+         url('fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*--------------Global--------------*/
+
+body {
+    margin: 0 0; 
+    font-size: 14px;
+}
+
+.general-text {
+   text-align: center;
+}
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after { 
+   content: ""; 
+   visibility: hidden; 
+   display: table; 
+   height: 0; 
+   clear: both;
+}
+
+h2{
+    font-weight: normal;
+}
+/*--------------Body--------------*/
+/*--------Header--------*/
+h1 {
+    font-size: 5px;
+    visibility: hidden;
+}
+
+.aloha-logo {
+    float: left;
+    width: 120px;
+}
+
+.cart-icon{
+    float: right;
+    width: 50px;
+}
+
+/*--------Banner--------*/
+
+
+.hero-banner {
+    height: 25rem;
+    background: 
+    linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ),
+    url('banner-girl.png') no-repeat center 60px, 
+    url('flower-bkgd.jpg') repeat-x center top;
+    margin: 20px 0;
+    background-size: contain, 150px, cover; 
+    position:relative;
+}
+
+.hero-text {
+    text-align: center;
+    line-height: 1em;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: auto;
+}
+
+.new-collection {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'ralewaymedium', sans-serif;
+}
+.spring {
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'playfair-r', sans-serif;
+}
+
+
+/*--------Description--------*/
+/*--------Product List--------*/
+ul {
+    padding: initial;
+}
+
+li {
+    display: block;
+}
+
+li img{
+    width: 16rem;
+    height: auto;
+}
+.name-text {
+    color:#E2574C;
+    font-family: 'playfair-r', sans-serif;
+    font-size: 22px;
+    margin: 10px auto;
+}
+
+.descript-text {
+    font-family: 'ralewaymedium', sans-serif;
+    color: #969696;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.price-text {
+    font-family: 'ralewaymedium', sans-serif;
+    color: #969696;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+/*--------Sign-Up--------*/
+.sign-up-banner{
+    height: 325px;
+    background: 
+    linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ),
+    url('wave-bkgd.jpg') no-repeat center bottom;
+    margin: 10px 0;
+    position:relative;
+}
+
+.sign-up {
+    text-align: center;
+    line-height: 2em;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    align-items: center;
+    color: #ffffff;
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
+}
+
+.sign-up-header-for{
+    font-family: 'playfair-i', sans-serif;
+    font-size: 32px;
+    
+}
+.sign-up-header-updates{
+    font-family: 'playfair-b', sans-serif;
+}
+
+.stay-updated-text{
+    font-family: 'ralewaylight', sans-serif;
+    margin-bottom: 5%; 
+}
+
+.sign-up-form{
+    background-color: #ffffff;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    border-top-left-radius: 40px 100%;
+    border-top-right-radius: 40px 100%;
+    border-bottom-left-radius: 40px 100%;
+    border-bottom-right-radius: 40px 100%;
+    padding: 1%;
+}
+
+.email {
+    position: relative;
+    float: left;
+    background: none;
+    border: none;
+    margin: 0 auto 0 30px;
+}
+
+
+.subscribe { 
+    color: #ffffff;
+    position: relative;
+    float: right;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom-left-radius: 50% 100%;
+    border-bottom-right-radius: 50% 100%;
+    background: #E2574C;
+    border: none;
+    padding: 3%;
+}
+/*--------Footer--------*/
+footer{
+    height: 250px;
+    background: #242424;
+    margin: 0 auto;
+    background-size: contain;
+    text-align: center;
+    color: #ffffff;
+    position:relative;
+}
+
+.footer-section{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
+}
+
+.footer-text {
+    color: #969696;
+}
+.social-media {
+    margin: 10px 0;
+}
+
+/*--------DESKTOP--------*/
+
+/*.hero-banner {
+    height: 550px;
+    background: 
+    linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ),
+    url('banner-girl.png') no-repeat center 60px, 
+    url('flower-bkgd.jpg') repeat-x center top;
+    margin: 20px 0;
+    background-size: contain, 250px, 851px, contain;
+    
+}*/
+
+/*footer{
+    height: 250px;
+    background: #242424;
+    margin: 0;
+    background-size: contain;
+}*/
+
+/*li {
+    display: inline-block;
+}
+
+.aloha-logo {
+    width: 160px;
+}
+
+.cart-icon{
+    width: 62px;
+}
