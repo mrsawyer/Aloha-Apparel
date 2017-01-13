@@ -185,7 +185,6 @@ h1 {
     font-family: 'playfair-r', sans-serif;
 }
 
-
 /*--------Description--------*/
 /*--------Product List--------*/
 ul {
@@ -319,6 +318,10 @@ footer{
     margin: 10px 0;
 }
 
+.practice {
+    display: none;
+}
+
 /*--------DESKTOP--------*/
 
 /*.hero-banner {
@@ -350,3 +353,4 @@ footer{
 .cart-icon{
     width: 62px;
 }
+
