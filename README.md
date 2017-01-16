@@ -1,27 +1,27 @@
-Synopsis
+Aloha Apparel website depicts the homescreen of Aloha Apparel Company. It is built with a responsive design that works for desktop, tablet, and mobile.
 
-At the top of the file there should be a short introduction and/ or overview that explains what the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+# Motivation
+Aloha Apparel was created as a step one deliverable for a project at RED Academy. 
 
-Code Example
+# Key Takeaways
+The main motivation behind the creation of this website was to become more familiar and comfortable with html and css, as well as responsive web design, and using git & github. These goals were achieved through the creation of Aloha. As can be seen through out the code, many different techniques, properties, and organizations were used.
 
-Show what the library does as concisely as possible, developers should be able to figure out how your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+# Included
+index.html
+style.css
+*this* README.md
+.gitignore
+all font resources
+all images used
 
-Motivation
+# Technologies Used
+The site was designed using Visual Studio Code. Many references were made to Mozilla Developer Network, Stack Overflow, RED resources, and others. 
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain why the project exists.
+# Organization
+The style.css file is organized to reflect the flow of the index.html file, it is arranged in chronological order (generally) and commented to aid in readability.
 
-Installation
+# Installation
+No installation required.
 
-Provide code examples and explanations of how to get the project.
-
-API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
-Tests
-
-Describe and show how to run the tests with code examples.
-
-Contributors
-
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+# Contributors
+Montana Sawyer
