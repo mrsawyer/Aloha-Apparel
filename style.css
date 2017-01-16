@@ -1,4 +1,5 @@
 /*--------------Fonts--------------*/
+
 @font-face {
     font-family: 'playfair-b';
     src: url('fonts/playfairdisplay-bold-webfont.eot');
@@ -108,14 +109,16 @@
 body {
     margin: 0 0; 
     font-size: 14px;
+    color: #2d2d2d;
 }
 
 .general-text {
    text-align: center;
+   line-height: 2em;
 }
 
 .container {
-    max-width: 1240px;
+    max-width: 480px;
     width: 100%;
     margin: 0 auto;
 }
@@ -131,12 +134,25 @@ body {
 
 h2{
     font-weight: normal;
+    font-family: 'playfair-i', sans-serif;
+    font-size: 34px;
 }
+
+.h2-second-half{
+    font-family: 'playfair-b', sans-serif;
+}
+
 /*--------------Body--------------*/
+
 /*--------Header--------*/
+
 h1 {
     font-size: 5px;
     visibility: hidden;
+}
+
+.header-margin {
+    margin: 0 10px;
 }
 
 .aloha-logo {
@@ -144,9 +160,10 @@ h1 {
     width: 120px;
 }
 
-.cart-icon{
+.cart-icon {
     float: right;
     width: 50px;
+    cursor:pointer;
 }
 
 /*--------Banner--------*/
@@ -158,19 +175,20 @@ h1 {
     linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ),
     url('banner-girl.png') no-repeat center 60px, 
     url('flower-bkgd.jpg') repeat-x center top;
-    margin: 20px 0;
+    margin: 15px 0;
     background-size: contain, 150px, cover; 
     position:relative;
 }
 
 .hero-text {
     text-align: center;
-    line-height: 1em;
+    line-height: 2rem;
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     width: auto;
+    margin: 10px 0;
 }
 
 .new-collection {
@@ -179,24 +197,41 @@ h1 {
     color: #ffffff;
     font-family: 'ralewaymedium', sans-serif;
 }
+
 .spring {
-    font-size: 40px;
+    font-size: 35px;
     color: #ffffff;
     font-family: 'playfair-r', sans-serif;
+    margin: 20px 0;
+    width: 500px;
 }
 
 /*--------Description--------*/
+
+.border {
+    border-bottom: solid 1px #d7d7d7;
+    padding-bottom: 70px;
+}
+.aloha-mission {
+    font-family: 'ralewaylight', sans-serif;
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+    font-size: 16px;
+}
+
 /*--------Product List--------*/
+
 ul {
     padding: initial;
 }
 
-li {
+ul li {
     display: block;
 }
 
 li img{
-    width: 16rem;
+    width: 20rem;
     height: auto;
 }
 .name-text {
@@ -210,7 +245,7 @@ li img{
     font-family: 'ralewaymedium', sans-serif;
     color: #969696;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 11px;
 }
 
 .price-text {
@@ -219,19 +254,25 @@ li img{
     text-transform: uppercase;
     font-size: 14px;
 }
+
 /*--------Sign-Up--------*/
+
 .sign-up-banner{
-    height: 325px;
+    height: 330px;
     background: 
-    linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ),
+    linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ),
     url('wave-bkgd.jpg') no-repeat center bottom;
-    margin: 10px 0;
+    margin: 10px 0 7px 0;
     position:relative;
+}
+
+.h2-sign-up {
+    margin: 0 auto auto auto;
 }
 
 .sign-up {
     text-align: center;
-    line-height: 2em;
+    line-height: 2.25em;
     position:absolute;
     top: 50%;
     left: 50%;
@@ -239,34 +280,24 @@ li img{
     align-items: center;
     color: #ffffff;
     width: 100%;
-    max-width: 550px;
-    margin: auto;
-}
-
-.sign-up-header-for{
-    font-family: 'playfair-i', sans-serif;
-    font-size: 32px;
-    
-}
-.sign-up-header-updates{
-    font-family: 'playfair-b', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .stay-updated-text{
     font-family: 'ralewaylight', sans-serif;
-    margin-bottom: 5%; 
+    margin-bottom: 8%;
+    margin-top: 4%; 
+    font-size: 16px;
 }
 
 .sign-up-form{
     background-color: #ffffff;
-    width: 90%;
+    width: 80%;
     display: flex;
     margin: 0 auto;
-    border-top-left-radius: 40px 100%;
-    border-top-right-radius: 40px 100%;
-    border-bottom-left-radius: 40px 100%;
-    border-bottom-right-radius: 40px 100%;
-    padding: 1%;
+    border-radius: 50px;
+    padding: 4px;
 }
 
 .email {
@@ -274,25 +305,34 @@ li img{
     float: left;
     background: none;
     border: none;
-    margin: 0 auto 0 30px;
+    margin: 0 auto 0 25px;
+    font-size: 14px;
+    font-family: 'ralewaylight', sans-serif;
 }
 
 
-.subscribe { 
+button { 
     color: #ffffff;
     position: relative;
     float: right;
-    border-top-left-radius: 50% 100%;
-    border-top-right-radius: 50% 100%;
-    border-bottom-left-radius: 50% 100%;
-    border-bottom-right-radius: 50% 100%;
+    border-radius: 50px;
     background: #E2574C;
     border: none;
-    padding: 3%;
+    padding: 3% 7%;
+    font-size: 14px;
+    font-family: 'ralewaymedium', sans-serif;
+    cursor:pointer;
 }
+
+button:hover,
+button:active {
+   background-color: #b64036;
+}
+
 /*--------Footer--------*/
+
 footer{
-    height: 250px;
+    height: 300px;
     background: #242424;
     margin: 0 auto;
     background-size: contain;
@@ -311,46 +351,226 @@ footer{
     margin: auto;
 }
 
-.footer-text {
-    color: #969696;
-}
-.social-media {
-    margin: 10px 0;
+.contact {
+    font-family: 'playfair-r', sans-serif;
+    line-height: 1.5em;
+    color: #ffffff;
+    padding: 0 1em;
 }
 
-.practice {
+.address {
+    color: #969696;
+    font-family: 'playfair-r', sans-serif;
+    line-height: 1.5em;
+    padding: 0 1em;
+}
+
+i {
+    margin: 0 5px;
+}
+
+.social-media {
+    display: inline;
+}
+
+.social-media li {
+    display: inline;
+    line-height: 2em;
+}
+
+.social-media i {
+    min-width: 20px;
+}
+.social {
     display: none;
 }
 
-/*--------DESKTOP--------*/
+/*-----------------Responsive Design-----------------*/
 
-/*.hero-banner {
-    height: 550px;
-    background: 
-    linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ),
-    url('banner-girl.png') no-repeat center 60px, 
-    url('flower-bkgd.jpg') repeat-x center top;
-    margin: 20px 0;
-    background-size: contain, 250px, 851px, contain;
+@media screen and (min-width: 600px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        max-width: 1240px;
+    }
+
+    h2{
+        font-size: 36px;
+    }
     
-}*/
+/*--------Header--------*/
 
-/*footer{
-    height: 250px;
-    background: #242424;
-    margin: 0;
-    background-size: contain;
-}*/
+    .header-margin {
+        margin: 5px 25px 0px 25px;
+    }
 
-/*li {
-    display: inline-block;
+    .aloha-logo {
+        float: left;
+        width: 160px;
+    }
+
+    .cart-icon {
+        float: right;
+        width: 62px;
+    }
+
+/*--------Banner--------*/
+
+    .new-collection {
+        font-size: 18px;
+    }
+
+    .spring {
+        font-size: 45px;
+    }
+
+/*--------Description--------*/
+
+    .aloha-mission {
+        font-size: 18px;
+    }
+
+/*--------Product List--------*/
+
+   ul li {
+        display: inline;
+        width: 50%;
+        float: left;
+    }
+
+    li img {
+        max-width: 100%;
+    }
+
+    .name-text {
+        font-size: 24px;
+    }
+
+    .descript-text {
+        font-size: 12px;
+    }
+
+    .price-text {
+        font-size: 16px;
+    }
+
+/*--------Sign-Up--------*/
+
+    .sign-up-banner {
+        height: 345px;
+    }
+
+    .sign-up-form {
+        width: 70%;
+    }   
+
+    .sign-up {
+        max-width: 660px;
+    }
+
+    .stay-updated-text {
+        margin-bottom: 5%; 
+        font-size: 18px;
+        padding: 0px 5px;
+    }
+
+    .email {
+        font-size: 16px;
+    }
+
+    button { 
+        font-size: 16px;
+        padding: 2% 5%;
+    }
+
+/*--------Footer--------*/
+
+    footer{
+        height: 290px;
+        background-size: contain;
+        text-align:left;
+    }
+
+    .footer-section{
+        position:absolute;
+        width: 100%;
+        max-width: 1240px;
+        margin: auto;
+    }
+
+    .footer-text {
+        color: #969696;
+        display: inline;
+    }
+
+    i {
+        margin: 0 5px;
+    }
+
+    .company-info {
+        width: 50%;
+        margin: 0;
+        float: left;
+    }
+
+    .social-media {
+        float: right;
+        line-height: 1em;
+        padding: 0 2em;
+        font-family: 'ralewaylight', sans-serif;
+        display: block;
+    }
+
+    .social-media li {
+        display: block;
+    }
+
+    .social {
+        display: inline-block;
+    }
 }
 
-.aloha-logo {
-    width: 160px;
-}
+@media screen and (min-width: 1240px) {
 
-.cart-icon{
-    width: 62px;
-}
+/*--------Banner--------*/
+
+    .hero-banner {
+        height: 550px;
+        background: 
+        linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),
+        url('banner-girl.png') no-repeat center 60px, 
+        url('flower-bkgd.jpg') repeat-x center top;
+        margin: 20px 0;
+        background-size: contain, 250px, 851px, contain;
+    }
+
+    .new-collection {
+        font-size: 18px;
+    }
+
+    .spring {
+        font-size: 60px;
+    }
+
+/*--------Product List--------*/
+
+   ul li {
+        display: inline-block;
+        margin: auto 2%;
+        width: auto;
+    }
+
+    li img{
+        width: 16rem;
+    }
+
+
+    .stay-updated-text {
+        padding: 0;
+    }
+
+
 
