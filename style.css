@@ -173,8 +173,8 @@ h1 {
     height: 25rem;
     background: 
     linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ),
-    url('banner-girl.png') no-repeat center 60px, 
-    url('flower-bkgd.jpg') repeat-x center top;
+    url('images/banner-girl.png') no-repeat center 60px, 
+    url('images/flower-bkgd.jpg') repeat-x center top;
     margin: 15px 0;
     background-size: contain, 150px, cover; 
     position:relative;
@@ -262,7 +262,7 @@ li img{
     height: 330px;
     background: 
     linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ),
-    url('wave-bkgd.jpg') no-repeat center bottom;
+    url('images/wave-bkgd.jpg') no-repeat center bottom;
     margin: 10px 0 7px 0;
     position:relative;
 }
@@ -538,8 +538,8 @@ i {
         height: 550px;
         background: 
         linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),
-        url('banner-girl.png') no-repeat center 60px, 
-        url('flower-bkgd.jpg') repeat-x center top;
+        url('images/banner-girl.png') no-repeat center 60px, 
+        url('images/flower-bkgd.jpg') repeat-x center top;
         margin: 20px 0;
         background-size: contain, 250px, 851px, contain;
     }
