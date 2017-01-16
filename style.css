@@ -223,11 +223,11 @@ h1 {
 
 /*--------Product List--------*/
 
-ul {
+.ul-products {
     padding: initial;
 }
 
-ul li {
+.ul-products li {
     display: block;
 }
 
@@ -433,7 +433,7 @@ i {
 
 /*--------Product List--------*/
 
-    ul li {
+   .ul-products li {
         width: 50%;
         float: left;
     }
@@ -550,7 +550,7 @@ i {
 
 /*--------Product List--------*/
 
-   ul li {
+   .ul-products li {
         display: inline-block;
         margin: auto 2%;
         width: auto;
