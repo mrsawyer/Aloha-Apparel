@@ -189,10 +189,11 @@ h1 {
     transform: translateX(-50%) translateY(-50%);
     width: auto;
     margin: 10px 0;
+    text-shadow: 2px 2px 3px #6A6C6F;
 }
 
 .new-collection {
-    font-size: 18px;
+    font-size: 1.25rem;
     text-transform: uppercase;
     color: #ffffff;
     font-family: 'ralewaymedium', sans-serif;
@@ -203,7 +204,7 @@ h1 {
     color: #ffffff;
     font-family: 'playfair-r', sans-serif;
     margin: 20px 0;
-    width: 500px;
+    width: 600px;
 }
 
 /*--------Description--------*/
@@ -268,6 +269,7 @@ li img{
 
 .h2-sign-up {
     margin: 0 auto auto auto;
+    text-shadow: 2px 2px 3px #6A6C6F;
 }
 
 .sign-up {
@@ -398,7 +400,7 @@ i {
     }
 
     h2{
-        font-size: 36px;
+        font-size: 38px;
     }
     
 /*--------Header--------*/
@@ -419,10 +421,6 @@ i {
 
 /*--------Banner--------*/
 
-    .new-collection {
-        font-size: 18px;
-    }
-
     .spring {
         font-size: 45px;
     }
@@ -435,8 +433,7 @@ i {
 
 /*--------Product List--------*/
 
-   ul li {
-        display: inline;
+    ul li {
         width: 50%;
         float: left;
     }
@@ -547,10 +544,6 @@ i {
         background-size: contain, 250px, 851px, contain;
     }
 
-    .new-collection {
-        font-size: 18px;
-    }
-
     .spring {
         font-size: 60px;
     }
@@ -567,10 +560,11 @@ i {
         width: 16rem;
     }
 
+/*----------Sign-Up----------*/
 
     .stay-updated-text {
         padding: 0;
     }
 
-
+}
 
