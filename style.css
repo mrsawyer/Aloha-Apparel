@@ -1,55 +1,47 @@
 /*--------------Fonts--------------*/
 
 @font-face {
-    font-family: 'playfair-b';
+    font-family: 'playfair';
     src: url('fonts/playfairdisplay-bold-webfont.eot');
     src: url('fonts/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/playfairdisplay-bold-webfont.woff2') format('woff2'),
          url('fonts/playfairdisplay-bold-webfont.woff') format('woff'),
          url('fonts/playfairdisplay-bold-webfont.ttf') format('truetype'),
          url('fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+    font-weight: bold;
 }
 
 @font-face {
-    font-family: 'playfair-bi';
+    font-family: 'playfair';
     src: url('fonts/playfairdisplay-bolditalic-webfont.eot');
     src: url('fonts/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
          url('fonts/playfairdisplay-bolditalic-webfont.woff') format('woff'),
          url('fonts/playfairdisplay-bolditalic-webfont.ttf') format('truetype'),
          url('fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+    font-weight: bold;
+    font-style: italic;
 }
 
 @font-face {
-    font-family: 'playfair-i';
+    font-family: 'playfair';
     src: url('fonts/playfairdisplay-italic-webfont.eot');
     src: url('fonts/playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/playfairdisplay-italic-webfont.woff2') format('woff2'),
          url('fonts/playfairdisplay-italic-webfont.woff') format('woff'),
          url('fonts/playfairdisplay-italic-webfont.ttf') format('truetype'),
          url('fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+    font-style: italic;
 }
 
 @font-face {
-    font-family: 'playfair-r';
+    font-family: 'playfair';
     src: url('fonts/playfairdisplay-regular-webfont.eot');
     src: url('fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
          url('fonts/playfairdisplay-regular-webfont.woff') format('woff'),
          url('fonts/playfairdisplay-regular-webfont.ttf') format('truetype'),
          url('fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
 }
 
 @font-face {
@@ -60,22 +52,17 @@
          url('fonts/raleway-light-webfont.woff') format('woff'),
          url('fonts/raleway-light-webfont.ttf') format('truetype'),
          url('fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
 }
 
 @font-face {
-    font-family: 'ralewaylight-i';
+    font-family: 'ralewaylight';
     src: url('fonts/raleway-lightitalic-webfont.eot');
     src: url('fonts/raleway-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/raleway-lightitalic-webfont.woff2') format('woff2'),
          url('fonts/raleway-lightitalic-webfont.woff') format('woff'),
          url('fonts/raleway-lightitalic-webfont.ttf') format('truetype'),
          url('fonts/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+    font-style: italic;
 }
 
 @font-face {
@@ -86,22 +73,17 @@
          url('fonts/raleway-medium-webfont.woff') format('woff'),
          url('fonts/raleway-medium-webfont.ttf') format('truetype'),
          url('fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
 }
 
 @font-face {
-    font-family: 'ralewaymedium-i';
+    font-family: 'ralewaymedium';
     src: url('fonts/raleway-mediumitalic-webfont.eot');
     src: url('fonts/raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/raleway-mediumitalic-webfont.woff2') format('woff2'),
          url('fonts/raleway-mediumitalic-webfont.woff') format('woff'),
          url('fonts/raleway-mediumitalic-webfont.ttf') format('truetype'),
          url('fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+    font-style: italic;
 }
 
 /*--------------Global--------------*/
@@ -124,14 +106,15 @@ body {
 }
 
 .section-headings {
-    font-weight: normal;
-    font-family: 'playfair-i', sans-serif;
+    font-family: 'playfair', serif;
+    font-style: italic;
     font-size: 34px;
     padding: 2rem 0;
 }
 
 .section-headings-half{
-    font-family: 'playfair-b', sans-serif;
+    font-weight: bold;
+    font-style: normal;
 }
 
 /*--------------Body--------------*/
@@ -257,7 +240,7 @@ a {
 .spring {
     font-size: 35px;
     color: #ffffff;
-    font-family: 'playfair-r', sans-serif;
+    font-family: 'playfair', serif;
     margin: 0;
     width: 100%;
 }
@@ -305,9 +288,8 @@ a {
 
 .category-title {
     color: white;
-    font-family: 'Raleway Web', sans-serif;
+    font-family: 'ralewaylight', sans-serif;
     font-size: 1.2rem;
-    font-weight: bold;
     line-height: 1;
     text-shadow: 2px 2px 3px #6A6C6F;
     text-transform: uppercase;
@@ -366,8 +348,6 @@ a {
     width: 100%;
 }
 
-
-
 /*--------Product List--------*/
 
 .main-carousel {
@@ -388,7 +368,7 @@ a {
 }
 .name-text {
     color:#E2574C;
-    font-family: 'playfair-r', sans-serif;
+    font-family: 'playfair', serif;
     font-size: 22px;
     margin: 10px auto;
 }
@@ -512,14 +492,14 @@ footer{
 }
 
 .contact {
-    font-family: 'playfair-r', sans-serif;
+    font-family: 'playfair', serif;
     line-height: 1.5em;
     color: #ffffff;
 }
 
 .address {
     color: #969696;
-    font-family: 'playfair-r', sans-serif;
+    font-family: 'playfair', serif;
     line-height: 1.5em;
     margin-bottom: 0;
 }
@@ -619,6 +599,7 @@ i {
 
     .category-title {
         font-size: 1.6rem;
+        font-family: 'ralewaymedium', sans-serif;
     }
 
 /*--------Product List--------*/
@@ -686,7 +667,7 @@ i {
     }
 
     .contact {
-    margin-top: 0;
+        margin-top: 0;
     }
 
     i {
