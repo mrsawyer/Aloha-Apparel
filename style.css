@@ -458,7 +458,6 @@ a {
     font-family: 'ralewaylight', sans-serif;
 }
 
-
 .sign-up-form button { 
     color: #ffffff;
     position: relative;
@@ -475,6 +474,15 @@ a {
 .sign-up-form button:hover,
 .sign-up-form button:active {
    background-color: #b64036;
+}
+
+#subscribe:focus {
+    outline: none;
+}
+
+input:focus {
+  box-shadow: 0 0 5px lightgray;
+  outline: none;
 }
 
 /*--------Footer--------*/

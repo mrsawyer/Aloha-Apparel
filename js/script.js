@@ -24,8 +24,14 @@ $(document).ready(function(){
 
    var itemCount = 0;
 
-    $('.add-cart').click(function (){
+    $('.add-cart').click(function (e){
+        e.preventDefault();
         itemCount ++;
         $('#itemCount').html(itemCount).css('display', 'block');
     }); 
+
+    $('#subscribe').on('click',function(e) {
+        e.preventDefault();
+        alert('Thanks for subscribing!');
+    });
 });
