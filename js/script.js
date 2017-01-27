@@ -17,7 +17,7 @@ $(document).ready(function(){
         setGallerySize: true,
         initialIndex: 0,
         cellSelector: '.carousel-cell',
-        autoPlay: 1500,
+        autoPlay: 1000,
         cellAlign: 'left',
         wrapAround: true
     });
