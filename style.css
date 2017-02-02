@@ -516,10 +516,13 @@ a {
     padding: 4px;
 }
 
-.email {
+label {
     position: relative;
     float: left;
     margin: 0 auto 0 25px;
+}
+
+.email {
     background: none;
     border: none;
     margin: 0 auto 0 25px;
