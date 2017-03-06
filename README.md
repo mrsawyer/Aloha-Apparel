@@ -1,5 +1,7 @@
 Aloha Apparel website depicts the homescreen of Aloha Apparel Company. It is built with a responsive design that works for desktop, tablet, and mobile.
 
+![alt text](images/screenshot.png "The homepage of Aloha Apparel")
+
 # Motivation
 Aloha Apparel was created as a step one deliverable for a project at RED Academy. 
 
