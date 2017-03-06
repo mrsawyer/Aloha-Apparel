@@ -534,8 +534,8 @@ a {
 .stay-updated-text{
     font-family: 'ralewaylight', sans-serif;
     margin-bottom: 8%;
-    margin-top: 4%; 
     font-size: 16px;
+    padding: 0 10px;
 }
 
 .sign-up-form{
@@ -546,6 +546,7 @@ a {
     margin: 0 auto;
     border-radius: 50px;
     padding: 4px;
+    width: 80%;
 }
 
 .email {
@@ -605,11 +606,20 @@ footer{
             flex-direction: column;
 }
 
-.contact {
+.contact, .contact a {
     font-family: 'playfair', serif;
     line-height: 1.5em;
     color: #ffffff;
+    text-transform: none;
+    padding: 0; 
 }
+.contact a {
+    text-decoration: underline; 
+}
+.contact a:active, .visited, .contact a:hover {
+    color:#E2574C;
+}
+
 
 .address {
     color: #969696;
@@ -868,5 +878,5 @@ i {
     .carousel-cell img{
         width: 17rem;
     }
-    
+
 }

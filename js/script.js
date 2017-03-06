@@ -44,6 +44,10 @@ $(function() {
         $("#"+$(this).attr("href").slice(1)+"").focus();
     });
 
+    $('.aloha-email').click(function(){
+    $(this).addClass('visited');
+});
+
 });
 
 function validateEmail(email) {
